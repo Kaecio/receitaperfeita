@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 36px;
+  color: #2c3e50;
+}
+
+#text-introdution {
+  color: rgb(0, 0, 0);
+  margin: 20px 0;
+}
+
+#image-cake {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+#audio-container {
+  margin-top: 20px;
+}
+
+audio {
+  width: 100%;
+}
+#ingredients,
+#preparation {
+  text-align: left;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #e67e22;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
+.instagram-link {
+  display: inline-block;
+  background-color: #ea893a;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.instagram-link i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.instagram-link:hover {
+  background-color: #c12c60;
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.3);
+}
+#footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #fff;
+}
+header {
+  background-color: rgb(218, 110, 68);
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.05);
+}
+
+.company-name h1 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
